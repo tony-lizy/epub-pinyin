@@ -1,0 +1,10 @@
+include README.md
+include requirements.txt
+include requirements-dev.txt
+include PINYIN_IMPROVEMENTS.md
+recursive-include epub_pinyin *.py
+recursive-include epub_pinyin/fonts *.ttf *.ttc
+recursive-include tests *.py
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude *.egg-info
